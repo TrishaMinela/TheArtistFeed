@@ -18,10 +18,10 @@ Your Feed: Presents opportunities for engagement, including information about ar
 ## Learning Outcomes
 Through the process of planning and developing this website, I learned several valuable lessons in web development, including:
 
-Planning: Understanding the importance of thorough planning before starting any coding work. This includes defining project goals, outlining site structure, and creating wireframes.
-Organization: Learning how to organize project files, assets, and code to maintain a clean and manageable codebase.
-Problem-Solving: Developing problem-solving skills by encountering and resolving various technical challenges throughout the project.
-Creativity: Exploring creative ways to design and present content to enhance user experience.
+- Planning: Understanding the importance of thorough planning before starting any coding work. This includes defining project goals, outlining site structure, and creating wireframes.
+- Organization: Learning how to organize project files, assets, and code to maintain a clean and manageable codebase.
+- Problem-Solving: Developing problem-solving skills by encountering and resolving various technical challenges throughout the project.
+- Creativity: Exploring creative ways to design and present content to enhance user experience.
 
 
 ##  Future Improvements
