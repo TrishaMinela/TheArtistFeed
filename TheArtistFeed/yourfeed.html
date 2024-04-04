@@ -26,7 +26,7 @@
       
        <div class="your-feed-banner">
           <h1 class="display">
-            Display your art for the year 2021!
+            Display your art for the year 2024!
           </h1>
           <h2>
             Become part of our exhibitions, belong in the artist feed!
@@ -61,7 +61,7 @@
             </div>
               
             <div class="yourfeedform">
-              <form class="form1" action="/my-handling-form-page" method="post">
+              <form id="schoolYearForm" class="form1" action="/my-handling-form-page" method="post">
                 <h1>
                   School Year Exhibition
                 </h1>
@@ -84,7 +84,7 @@
                 </ul>
               </form>
              
-              <form class="form2" action="/my-handling-form-page" method="post">
+              <form id="annualArtistForm" class="form2" action="/my-handling-form-page" method="post">
                 <h1>
                   Annual Artist Exhibition
                 </h1>
@@ -115,7 +115,7 @@
               November Featured Artist: <br>Jethro Sumiran
             </h3>
             <h3>
-              Artwork: <br>"Familiar" 2019
+              Artwork: <br>"Familiar" 2024
             </h3>
             <h3>
               Contact the Artist: <br>Jethro.sumiran@gmail.com
@@ -130,7 +130,7 @@
       </main>
       <footer>
         <p>
-          &copy; 2020 Dry Oar Adventure - Trisha Sumiran - Section 1001
+          &copy; 2024 - Trisha Sumiran - Showcasing Site Plan
         </p>
         <div class="socmed">
           <a href="https://www.facebook.com/" target="_blank"><img src="https://cdn.glitch.com/c6b70a94-cbef-4517-a012-634ead724329%2FSquare%20Photo%20collage%20%20(1).png?v=1605797716331" alt="facebook" width="45" height="45"></a>
@@ -144,6 +144,31 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      // Get the forms
+      const schoolYearForm = document.getElementById('schoolYearForm');
+      const annualArtistForm = document.getElementById('annualArtistForm');
+    
+      // Add submit event listeners
+      schoolYearForm.addEventListener('submit', function(event) {
+        // Prevent the form from submitting
+        event.preventDefault();
+        // Show the message
+        alert('Message received');
+  
+      });
+    
+      annualArtistForm.addEventListener('submit', function(event) {
+        // Prevent the form from submitting
+        event.preventDefault();
+        // Show the message
+        alert('Message received');
+      });
+    </script>
+
+
+
   </body>
 </html>
         
